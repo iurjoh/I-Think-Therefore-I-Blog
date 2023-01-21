@@ -86,9 +86,11 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 #     }
 # }
 
+
 DATABASES = {
      'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
  }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
